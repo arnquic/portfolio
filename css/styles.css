@@ -89,13 +89,14 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.js-icon {
+.skill-icon {
+  filter: invert(45%) sepia(75%) saturate(1766%) hue-rotate(338deg) brightness(99%) contrast(94%);
   width: calc(1.375rem + 1.5vw);
   height: auto;
 }
 
 @media (min-width: 1200px) {
-  .js-icon {
+  .skill-icon {
     width: 2.5rem;
     height: auto;
   }
